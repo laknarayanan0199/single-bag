@@ -1,5 +1,6 @@
 .business {
   margin-bottom: 3rem;
+  text-align: center;
 }
 
 .business h2 {
@@ -11,15 +12,21 @@
 .business_process {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding: 0 8rem;
-}
-
-.business_process img {
-  max-width: 22rem;
 }
 
 .process {
   width: 25rem;
+}
+.process_img img {
+  max-width: 20rem;
+}
+
+.process_description {
+  margin-left: 2.5rem;
+  text-align: left;
 }
 
 .process button {
@@ -38,10 +45,15 @@
   color: #555555;
 }
 
-@media (max-width: 70rem) {
+@media (max-width: 830px) {
+  .business {
+    margin: 3rem 0;
+  }
   .business_process {
-    flex-wrap: wrap;
     justify-content: center;
+  }
+  .business h2 {
+    font-size: 2rem;
   }
   .business_process img {
     max-width: 30rem;

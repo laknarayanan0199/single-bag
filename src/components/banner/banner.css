@@ -37,6 +37,7 @@
 
 .banner_img_main {
   max-width: 35rem;
+  /* position: relative; */
 }
 
 .headings p {
@@ -70,4 +71,19 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@media (max-width: 1024px) {
+  .main_heading {
+    padding: 1rem;
+  }
+  .main_heading h1 {
+    font-size: 3rem;
+  }
+  .headings {
+    width: 100%;
+  }
+  .banner_imgs {
+    display: none;
+  }
 }

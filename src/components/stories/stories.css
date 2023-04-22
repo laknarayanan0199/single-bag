@@ -59,3 +59,19 @@
 .scroller {
   margin: 1rem;
 }
+
+@media (max-width: 830px) {
+  .stories_heading {
+    padding: 1rem;
+  }
+  .stories_heading h3 {
+    font-size: 2rem;
+  }
+  .stories {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  .story {
+    width: 100%;
+  }
+}

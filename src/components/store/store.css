@@ -20,12 +20,13 @@
 .contents {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 6rem;
   margin: 2rem 0;
 }
 
 .contents img {
   border-radius: 0.5rem;
+  box-shadow: 1rem 1rem 1rem 1rem #e8e8e8;
 }
 .contents h3 {
   font-size: 2rem;
@@ -46,12 +47,24 @@
   color: #22205f;
 }
 
-@media (max-width: 70rem) {
+.content_description {
+  width: 40%;
+}
+
+@media (max-width: 1000px) {
+  .store_container {
+    margin-top: 2rem;
+    gap: 1rem;
+  }
   .contents {
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
   }
   .contents img {
-    width: 40rem;
+    width: 30rem;
+  }
+  .contents span {
+    margin-top: 2rem;
   }
 }

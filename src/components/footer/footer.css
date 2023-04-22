@@ -39,10 +39,21 @@
 .copyrights {
   text-align: center;
   padding: 1rem;
+  margin-top: 1rem;
   font-size: 15px;
 }
 
 hr {
   width: 83%;
   color: #555555;
+}
+
+@media (max-width: 830px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about {
+    width: 100%;
+  }
 }

@@ -10,7 +10,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Store = () => {
   return (
-    <section className="store_container">
+    <div className="store_container">
       <h3>Create an online store with no coding knowledge</h3>
       <h2>
         Ecommerce stores are now the powerhouse of building engaging business.
@@ -19,7 +19,7 @@ const Store = () => {
         <div>
           <img src={singleBagStore} alt="singleBagStore" />
         </div>
-        <div>
+        <div className="content_description">
           <h3>Online Store for Every Business</h3>
           <p>
             Sell anything and everything online by building an online store. The
@@ -35,7 +35,7 @@ const Store = () => {
         </div>
       </div>
       <div className="contents">
-        <div>
+        <div className="content_description">
           <h3>Grow Your Online Business</h3>
           <p>
             Get your online store discovered by your customers through Social
@@ -58,7 +58,7 @@ const Store = () => {
         <div>
           <img src={instantCheckout} alt="Reliable and Instant Checkout" />
         </div>
-        <div>
+        <div className="content_description">
           <h3>Reliable and Instant Checkout</h3>
           <p>
             Ease the checkout process with our multiple payment gateways and
@@ -72,7 +72,7 @@ const Store = () => {
         </div>
       </div>
       <div className="contents">
-        <div>
+        <div className="content_description">
           <h3>Your business, Your Delivery Agent</h3>
           <p>
             Manage your business delivery on your own. With our unique delivery
@@ -93,7 +93,7 @@ const Store = () => {
         <div>
           <img src={pointOfSale} alt="Flexible Point-Of-Sale" />
         </div>
-        <div>
+        <div className="content_description">
           <h3>Flexible Point-Of-Sale</h3>
           <p>
             Empower your business with an all-in-one POS that integrates offline
@@ -107,7 +107,7 @@ const Store = () => {
         </div>
       </div>
       <div className="contents">
-        <div>
+        <div className="content_description">
           <h3>Make Money While Managing with Ease</h3>
           <p>
             Monitor the performance of your store from a centralized dashboard.
@@ -124,7 +124,7 @@ const Store = () => {
           <img src={manageEverthing} alt="Singlebag-Manage-Everything" />
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

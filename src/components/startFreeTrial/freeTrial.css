@@ -47,3 +47,14 @@
   top: 0;
   width: 20rem;
 }
+
+@media (max-width: 830px) {
+  .payment_methods {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  .free_trial span {
+    padding: 0rem;
+  }
+}

@@ -20,14 +20,13 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 2rem;
-  /* transition-duration: 3s; */
   transition-timing-function: ease-in;
-  /* transition: all 3s ease-in; */
 }
 .themes img {
   background-color: aliceblue;
   border-radius: 0.5rem;
   box-shadow: 0 0 15px #ededed;
+  transition: transform 0.3s ease-in;
 }
 .themes img:hover {
   transform: scale(1.1);

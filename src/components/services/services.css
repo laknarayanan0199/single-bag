@@ -1,5 +1,5 @@
 .services_container > p {
-  margin: 2rem 7rem;
+  margin: 1.5rem 7rem 3rem 7rem;
   font-size: 1.5rem;
   color: #22205f;
   font-weight: 600;
@@ -10,17 +10,31 @@
 }
 
 .service {
+  width: 30%;
   padding: 1rem;
-  border: 2px solid #e0e0e0;
+  border: 1px solid #e0e0e0;
   border-radius: 1rem;
+  transition: transform 0.5s ease-in;
 }
 
 .service img {
-  max-width: 5rem;
+  max-width: 3rem;
+}
+.service h3 {
+  margin-top: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.service p {
+  font-size: 0.9375rem;
+  text-align: left;
+  color: #555555;
 }
 
 .service:hover {
   transform: scale(1.01);
+  box-shadow: 0.2rem 0.2rem 0.2rem 0 #e8e8e8;
 }
 
 .service_box_1 {
@@ -28,6 +42,10 @@
   justify-content: center;
   gap: 2rem;
   padding-bottom: 2rem;
+}
+.service_box_2 > .service {
+  width: 50%;
+  text-align: center;
 }
 
 .service_box_2 {
@@ -37,7 +55,16 @@
   flex-grow: 1;
 }
 
-@media (max-width: 70rem) {
+@media (max-width: 830px) {
+  .services_container > p {
+    text-align: center;
+  }
+  .services {
+    padding: 0 2rem;
+  }
+  .service {
+    width: 50%;
+  }
   .service_box_1 {
     flex-wrap: wrap;
   }
