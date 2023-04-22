@@ -1,0 +1,49 @@
+.business {
+  margin-bottom: 3rem;
+}
+
+.business h2 {
+  text-align: center;
+  font-size: 2.0625rem;
+  color: #22205f;
+  font-weight: 600;
+}
+.business_process {
+  display: flex;
+  justify-content: center;
+  padding: 0 8rem;
+}
+
+.business_process img {
+  max-width: 22rem;
+}
+
+.process {
+  width: 25rem;
+}
+
+.process button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #2575fc;
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.process p {
+  width: 22rem;
+  color: #555555;
+}
+
+@media (max-width: 70rem) {
+  .business_process {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .business_process img {
+    max-width: 30rem;
+  }
+}

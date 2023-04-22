@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: justify;
+  padding-top: 2rem;
+}
+
+.footer p {
+  font-size: 15px;
+  font-weight: 350;
+  margin: 0.5rem;
+}
+
+.footer b {
+  color: #22205f;
+}
+
+.footer h3 {
+  color: #000000c2;
+  padding-bottom: 1rem;
+}
+
+.about {
+  width: 30%;
+}
+.about p {
+  margin: 0;
+}
+
+.about img {
+  width: 12rem;
+}
+.about svg {
+  margin: 1rem 0;
+  padding: 0.6rem;
+  color: #22205f;
+}
+
+.copyrights {
+  text-align: center;
+  padding: 1rem;
+  font-size: 15px;
+}
+
+hr {
+  width: 83%;
+  color: #555555;
+}

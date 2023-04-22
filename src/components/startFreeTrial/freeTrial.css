@@ -1,0 +1,49 @@
+.free_trial {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0rem;
+  background-color: #0072bb;
+  /* background-image: url(../../assests/wave-11@2x.png); */
+  background-repeat: no-repeat;
+  background-position: left;
+  color: white;
+  position: relative;
+}
+
+.payment_methods {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.free_trial button {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  border: none;
+  background-color: #22205f;
+  color: white;
+  font-size: 1rem;
+}
+
+.free_trial span {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.free_trial img {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 20rem;
+}

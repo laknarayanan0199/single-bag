@@ -1,0 +1,61 @@
+.stories_heading {
+  background: url(../../assests/1600-px-world-map-blue-dots-svg@2x-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2rem 4rem;
+  text-align: center;
+}
+
+.stories_heading h3 {
+  font-size: 2.1875rem;
+  color: #22205f;
+  font-weight: 600;
+  margin: 0.75rem;
+}
+.stories_heading p {
+  font-size: 0.9375rem;
+  color: #555555;
+}
+
+.stories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 9rem;
+}
+
+.story {
+  background-color: white;
+  border: 0.2px solid rgba(221, 221, 221, 0.8);
+  padding: 1rem;
+  width: 50%;
+  border-radius: 0.5rem;
+}
+
+.story p {
+  text-align: left;
+}
+
+.story img {
+  border-radius: 50%;
+}
+
+.story_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.story_wrapper_left {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.story_wrapper_left p {
+  margin: 0;
+  padding: 0;
+}
+.scroller {
+  margin: 1rem;
+}

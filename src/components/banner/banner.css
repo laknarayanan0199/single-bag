@@ -1,0 +1,73 @@
+.main_heading {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  padding: 1rem 9.5rem;
+}
+.main_heading h1 {
+  color: #22205f;
+  font-size: 3.5rem;
+  line-height: 120%;
+  margin-top: 0;
+  font-weight: 600;
+}
+.headings {
+  width: 475px;
+}
+.headings button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: #22205f;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+.description {
+  color: #555555;
+  padding: 0.625rem;
+}
+.banner_imgs {
+  width: 40vw;
+  height: 60vh;
+  position: relative;
+}
+
+.banner_img_main {
+  max-width: 35rem;
+}
+
+.headings p {
+  font-size: 1.5rem;
+  color: #111111;
+}
+
+.round_img {
+  width: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.triangle_img {
+  width: 4rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.group_img {
+  width: 4rem;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+}
+
+.bar_img {
+  width: 4rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

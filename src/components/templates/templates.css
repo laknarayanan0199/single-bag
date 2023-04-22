@@ -1,0 +1,34 @@
+.templates {
+  margin: 2rem;
+  text-align: center;
+}
+.templates h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-top: 0;
+  color: #22205f;
+}
+
+.templates p {
+  padding: 0.5rem 5rem;
+  margin-top: 0;
+  font-size: 1.125rem;
+  color: #555555;
+}
+.themes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* transition-duration: 3s; */
+  transition-timing-function: ease-in;
+  /* transition: all 3s ease-in; */
+}
+.themes img {
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px #ededed;
+}
+.themes img:hover {
+  transform: scale(1.1);
+}
