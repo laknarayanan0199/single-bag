@@ -4,26 +4,9 @@ import hamburger_icon from "../../assests/hamburger.png";
 import close from "../../assests/close.png";
 import "./navbar.css";
 import { useState } from "react";
-import { useEffect } from "react";
 
 const Navbar = () => {
   const [isHamburger, setIsHamburger] = useState(false);
-  const [show, handleShow] = useState(false);
-
-  const trasitionNavBar = () => {
-    if (window.scrollY > 100) {
-      handleShow(true);
-      return;
-    }
-    handleShow(false);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", trasitionNavBar);
-    return () => {
-      window.removeEventListener("scroll", trasitionNavBar);
-    };
-  }, []);
 
   return (
     <>

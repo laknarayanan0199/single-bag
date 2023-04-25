@@ -43,16 +43,7 @@
   align-items: center;
 }
 .mobile_navlinks {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 10% 80% 0 0;
-  background-color: white;
-  z-index: 10;
-  height: 100vh;
+  display: none;
 }
 
 @media (max-width: 64rem) {
@@ -73,8 +64,20 @@
   .logo img {
     width: 14rem;
   }
+  .mobile_navlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10% 80% 0 0;
+    background-color: white;
+    z-index: 10;
+    height: 100vh;
+  }
   .options {
-    width: 2.5rem;
+    width: 2.3rem;
     height: 2rem;
     border-radius: 0.2rem;
     background-color: #22205f;
