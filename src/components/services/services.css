@@ -58,12 +58,13 @@
 @media (max-width: 830px) {
   .services_container > p {
     text-align: center;
+    margin: auto;
   }
   .services {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
   .service {
-    width: 50%;
+    width: 90% !important;
   }
   .service_box_1 {
     flex-wrap: wrap;

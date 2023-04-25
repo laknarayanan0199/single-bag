@@ -12,7 +12,7 @@ const Services = () => {
       <p>What do we offer?</p>
       <div className="services">
         <div className="service_box_1">
-          <div className="service service-1">
+          <div className="service">
             <img src={hosting} alt="hosting" />
             <h3>Start an online business</h3>
             <p>
@@ -20,7 +20,7 @@ const Services = () => {
               is required, just your idea and passion!
             </p>
           </div>
-          <div className="service service-2">
+          <div className="service">
             <img src={wholesale} alt="wholesale" />
             <h3>Become a wholesaler</h3>
             <p>
@@ -28,7 +28,7 @@ const Services = () => {
               businesses.
             </p>
           </div>
-          <div className="service service-3">
+          <div className="service">
             <img src={onlineShopping} alt="online-shopping" />
             <h3>Become a reseller</h3>
             <p>
@@ -37,7 +37,7 @@ const Services = () => {
           </div>
         </div>
         <div className="service_box_2">
-          <div className="service service-4">
+          <div className="service">
             <img src={revenue} alt="revenue" />
             <h3>Earn a recurring revenue</h3>
             <p>
@@ -45,7 +45,7 @@ const Services = () => {
               ecommerce stores and earn a commission.
             </p>
           </div>
-          <div className="service service-5">
+          <div className="service">
             <img src={book} alt="book" />
             <h3>Share your knowledge</h3>
             <p>

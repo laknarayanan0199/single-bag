@@ -31,3 +31,18 @@
 .themes img:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 64rem) {
+  .templates h2 {
+    font-size: 1.5rem;
+  }
+  .templates p {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 32.75rem) {
+  .themes img {
+    width: 80%;
+  }
+}

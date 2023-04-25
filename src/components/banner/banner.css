@@ -83,6 +83,9 @@
   .headings {
     width: 100%;
   }
+  .headings p {
+    font-size: 1.125rem;
+  }
   .banner_imgs {
     display: none;
   }

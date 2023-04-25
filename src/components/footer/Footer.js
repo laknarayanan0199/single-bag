@@ -33,24 +33,26 @@ const Footer = () => {
           <FaYoutube />
         </div>
         <div className="community">
-          <h3>COMMUNITY</h3>
-          <p>Forums</p>
-          <p>Blogs</p>
-          <p>Academy</p>
-          <p>knowledgebase</p>
-        </div>
-        <div>
-          <h3>COMPANY</h3>
-          <p>About us</p>
-          <p>Partner Program</p>
-          <p>Features</p>
-          <p>Pricing</p>
-          <p>Get in touch</p>
-        </div>
-        <div>
-          <h3>POLICY</h3>
-          <p>Terms and Conditions</p>
-          <p>Privacy Policy</p>
+          <div>
+            <h3>COMMUNITY</h3>
+            <p>Forums</p>
+            <p>Blogs</p>
+            <p>Academy</p>
+            <p>knowledgebase</p>
+          </div>
+          <div>
+            <h3>COMPANY</h3>
+            <p>About us</p>
+            <p>Partner Program</p>
+            <p>Features</p>
+            <p>Pricing</p>
+            <p>Get in touch</p>
+          </div>
+          <div>
+            <h3>POLICY</h3>
+            <p>Terms and Conditions</p>
+            <p>Privacy Policy</p>
+          </div>
         </div>
       </div>
       <hr />

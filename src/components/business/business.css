@@ -12,20 +12,18 @@
 .business_process {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   padding: 0 8rem;
 }
 
 .process {
-  width: 25rem;
+  width: 18rem;
 }
 .process_img img {
-  max-width: 20rem;
+  max-width: 100%;
 }
 
 .process_description {
-  margin-left: 2.5rem;
   text-align: left;
 }
 
@@ -41,21 +39,34 @@
 }
 
 .process p {
-  width: 22rem;
+  width: 18rem;
   color: #555555;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 64rem) {
   .business {
     margin: 3rem 0;
   }
-  .business_process {
-    justify-content: center;
-  }
   .business h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
   }
-  .business_process img {
-    max-width: 30rem;
+  .business_process {
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .process {
+    width: 100%;
+  }
+  .process_description h3 {
+    font-size: 18px;
+  }
+  .process p {
+    width: 100%;
+  }
+  .process_img img {
+    width: 100%;
   }
 }

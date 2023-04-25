@@ -1,7 +1,8 @@
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: justify;
+  gap: 2.5rem;
   padding-top: 2rem;
 }
 
@@ -16,6 +17,8 @@
 }
 
 .footer h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
   color: #000000c2;
   padding-bottom: 1rem;
 }
@@ -35,6 +38,12 @@
   padding: 0.6rem;
   color: #22205f;
 }
+.community {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 1rem;
+}
 
 .copyrights {
   text-align: center;
@@ -48,12 +57,16 @@ hr {
   color: #555555;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 64rem) {
   .footer {
     flex-direction: column;
-    text-align: center;
+    padding: 1rem;
   }
   .about {
     width: 100%;
+  }
+  .community {
+    gap: 2rem;
+    flex-wrap: wrap;
   }
 }

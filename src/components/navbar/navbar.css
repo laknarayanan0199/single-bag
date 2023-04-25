@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 6.2rem;
+  height: 6.5rem;
 }
 .logo {
   margin-left: 1.5rem;
@@ -10,10 +10,11 @@
 
 .logo img {
   width: 16rem;
-  height: 6.5rem;
+  /* height: 6rem; */
 }
 
-.navlinks a {
+.navlinks a,
+.mobile_navlinks a {
   text-decoration: none;
   cursor: default;
   color: #202020;
@@ -36,4 +37,63 @@
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
+}
+.menu_btn {
+  display: flex;
+  align-items: center;
+}
+.mobile_navlinks {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10% 80% 0 0;
+  background-color: white;
+  z-index: 10;
+  height: 100vh;
+}
+
+@media (max-width: 64rem) {
+  .navlinks {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: normal;
+    height: 10rem;
+    justify-content: flex-start;
+  }
+  .logo {
+    text-align: center;
+    height: 6rem;
+    margin: 0;
+  }
+  .logo img {
+    width: 14rem;
+  }
+  .options {
+    width: 2.5rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    background-color: #22205f;
+    color: black;
+    cursor: pointer;
+  }
+  .menu_btn {
+    padding: 0 8rem;
+    justify-content: space-between;
+  }
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 2rem;
+  }
+}
+@media (max-width: 584px) {
+  .menu_btn {
+    padding: 0 1rem;
+  }
 }
